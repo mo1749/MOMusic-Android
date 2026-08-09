@@ -1,0 +1,20 @@
+{
+  "name": "momusic-android",
+  "version": "1.4.4",
+  "private": true,
+  "description": "MoMusic Android APK (Capacitor 8 + NodeJS-mobile 内嵌后端)",
+  "scripts": {
+    "sync:web": "powershell -ExecutionPolicy Bypass -File sync-web.ps1",
+    "sync:node": "powershell -ExecutionPolicy Bypass -File sync-node.ps1",
+    "sync": "npm run sync:web && npm run sync:node",
+    "cap:add": "npx cap add android",
+    "cap:sync": "npx cap sync android",
+    "build:apk": "powershell -ExecutionPolicy Bypass -File build-apk.ps1"
+  },
+  "dependencies": {
+    "@capawesome/capacitor-nodejs": "^0.1.0",
+    "@capacitor/android": "^8.5.0",
+    "@capacitor/cli": "^8.5.0",
+    "@capacitor/core": "^8.5.0"
+  }
+}

@@ -1,0 +1,38 @@
+# Node
+node_modules/
+package-lock.json
+
+# Capacitor / Android build
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/capacitor-cordova-android-plugins/
+android/.cxx/
+
+# åŒæ­¥äº§ç‰©ï¼ˆç”± sync è„šæœ¬ç”Ÿæˆï¼Œä¸æäº¤ï¼‰
+www/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# ¹¤¾ßÓë±¾µØ×ÊÔ´
+.tools/
+tools/
+screenshots/
+*.design
+*.pptx
+MoMusic-*.html
+
+# ÔËĞĞÊ±Êı¾İ
+www/nodejs/updates/
+www/nodejs/data/
+www/nodejs/lt-data/
+www/nodejs/node_modules/
+www/nodejs/package-lock.json
+
+# ¹¹½¨»º´æ
+*.log
+.DS_Store
