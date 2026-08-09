@@ -36,3 +36,6 @@ www/nodejs/package-lock.json
 # 构建缓存
 *.log
 .DS_Store
+
+# 桌面截图临时文件
+*.bmp
